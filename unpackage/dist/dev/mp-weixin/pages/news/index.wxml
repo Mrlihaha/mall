@@ -1,0 +1,1 @@
+<view class="news"><block wx:for="{{newsData}}" wx:for-item="item" wx:for-index="__i0__" wx:key="image"><view class="news-item"><image src="{{item.img}}" mode></image><view class="right"><view class="tit">{{item.text}}</view><view class="info"><text>{{"发表时间:"+item.time}}</text><text>{{"浏览:"+item.num}}</text></view></view></view></block></view>

@@ -1,0 +1,1 @@
+<view class="goods"><block wx:for="{{appData.hots}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['to',[index]]]]]}}" class="goods-item" bindtap="__e"><image src="{{item.image}}"></image><view class="price"><text>{{item.price.one}}</text><text>{{item.price.two}}</text></view><view class="name">{{item.text}}</view></view></block></view>

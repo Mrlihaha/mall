@@ -1,0 +1,1 @@
+<view><block wx:if="{{false}}"><view><view><image></image><text></text></view></view></block><block wx:else><view>暂无数据</view></block></view>
